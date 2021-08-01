@@ -1,0 +1,28 @@
+.subsidebar {
+  flex: 3%;
+}
+.subsidebar__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 14px;
+  margin-bottom: 8px;
+}
+.subsidebar__info > .MuiSvgIcon-root {
+  color: #606060;
+}
+.subsidebar__info > P {
+  max-width: 100%;
+  display: block;
+  max-height: 1.4rem;
+  white-space: nowrap;
+  font-size: 9px;
+  font-weight: 400;
+}
+.subsidebar__info:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+.active {
+  color: red !important;
+}

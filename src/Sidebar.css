@@ -1,0 +1,40 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.sidebar {
+  flex: 0.3;
+  position: fixed;
+  top: 0;
+  left: 0px;
+  background-color: #fff;
+  height: 100vh;
+  z-index: 1;
+  margin-left: 4px;
+  overflow: scroll;
+}
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
+.sidebar__header {
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #fff;
+}
+.header__logo {
+  display: flex;
+  align-items: flex-start;
+  height: 80px;
+  margin-left: 25px;
+  object-fit: contain;
+}
+.menue__icon2 {
+  margin-left: 22px;
+}
+.sidebar > hr {
+  color: 1px solid lightgray;
+}

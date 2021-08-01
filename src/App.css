@@ -1,0 +1,18 @@
+.app {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.app__body {
+  display: flex;
+}
+.app__body1 {
+  display: flex;
+}
+.app__video {
+  width: 100vw;
+  height: 100vh;
+}
+.app__video1 {
+  display: flex;
+}

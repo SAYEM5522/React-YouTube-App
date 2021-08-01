@@ -1,0 +1,29 @@
+.sidebarrow {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.sidebarrow__info {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  padding-left: 5px;
+}
+.sidebarrow:hover {
+  background-color: rgba(0, 0, 0, 0.06);
+}
+.active__icon {
+  background-color: lightgray;
+}
+.active__icon > .sidebarrow__info > .MuiSvgIcon-root {
+  color: #ff0000 !important;
+}
+.sidebarrow__info > .MuiSvgIcon-root {
+  font-size: 24px;
+  color: #606060 !important;
+}
+.sidebarrow__info > p {
+  margin-left: 20px;
+  color: #030303;
+  font-size: 16px;
+}

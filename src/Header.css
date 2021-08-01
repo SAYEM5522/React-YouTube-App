@@ -1,0 +1,121 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 16px;
+}
+.header__left {
+  display: flex;
+  align-items: center;
+}
+.menue__icon {
+  margin-left: 10px;
+}
+.header__logo {
+  height: 80px;
+  margin-left: 25px;
+  object-fit: contain;
+}
+.header__center {
+  display: flex;
+  align-items: center;
+  width: 550px;
+  border: 1px solid lightgray;
+  margin-right: 25px;
+  margin-left: 17px;
+}
+.header__center > input {
+  flex: 1;
+  padding: 3px;
+  border: none;
+  outline-width: 0;
+  font-family: "Roboto", "Noto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 4px;
+}
+.header__icon {
+  border-left: 1px solid lightgray !important;
+  padding: 3px;
+  width: 60px;
+  cursor: pointer;
+  background-color: #f8f8f8;
+  color: #333333;
+  margin-left: 10px !important;
+}
+.header__right {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+.videoicon > .MuiSvgIcon-root {
+  margin-right: 25px;
+  color: #606060;
+}
+.appsicon > .MuiSvgIcon-root {
+  margin-right: 25px;
+  color: #606060;
+}
+.notificationicon > .MuiSvgIcon-root {
+  margin-right: 25px;
+  color: #606060;
+}
+.videoicon > p {
+  display: none;
+}
+.appsicon > p {
+  display: none;
+}
+.notificationicon > p {
+  display: none;
+}
+
+.videoicon:hover > p {
+  display: grid;
+  place-items: center;
+  font-weight: 600;
+  width: 75px;
+  height: 34px;
+  font-size: 13px;
+  word-wrap: none;
+  position: fixed;
+  top: 85px;
+  text-align: center;
+  right: 160px;
+  color: white;
+  background-color: gray;
+  cursor: pointer;
+}
+.appsicon:hover > p {
+  display: grid;
+  place-items: center;
+  font-weight: 600;
+  width: 95px;
+  height: 34px;
+  font-size: 13px;
+  word-wrap: none;
+  position: fixed;
+  top: 85px;
+  text-align: center;
+  right: 105px;
+  color: white;
+  background-color: gray;
+  cursor: pointer;
+}
+.notificationicon:hover > p {
+  display: grid;
+  place-items: center;
+  font-weight: 600;
+  width: 95px;
+  height: 34px;
+  font-size: 13px;
+  word-wrap: none;
+  position: fixed;
+  top: 85px;
+  text-align: center;
+  right: 65px;
+  color: white;
+  background-color: gray;
+  cursor: pointer;
+}

@@ -1,0 +1,12 @@
+.recomvdo {
+  flex: 97%;
+  background-color: #f6f6f6;
+  overflow: scroll;
+  height: 100vh;
+}
+.recomvideos {
+  width: 98vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap !important;
+}

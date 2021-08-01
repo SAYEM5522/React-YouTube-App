@@ -1,0 +1,60 @@
+.video {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 20px;
+  cursor: pointer;
+  width: 260px;
+}
+.video__logo {
+  width: 250px;
+  object-fit: contain;
+}
+.img__container {
+  position: relative;
+}
+.img__container > .MuiSvgIcon-root {
+  font-size: medium;
+  display: none;
+}
+.img__container:hover > .icon1 {
+  display: inline !important;
+}
+.img__container:hover > .icon2 {
+  display: inline !important;
+}
+.icon1 {
+  position: absolute;
+  top: 8px;
+  right: 20px;
+  color: white !important;
+  padding: 5px;
+  background-color: rgba(51, 51, 51, 1);
+}
+.icon2 {
+  position: absolute;
+  top: 37px;
+  right: 20px;
+  color: white !important;
+  padding: 5px;
+  background-color: rgba(51, 51, 51, 1);
+}
+.video__header {
+  display: flex;
+}
+.video__details {
+  padding: 10px;
+  display: flex;
+}
+.video__detail {
+  margin-left: 14px;
+}
+
+.video__detail > p > .MuiSvgIcon-root {
+  font-size: small;
+}
+.video__header > h4 {
+  font-size: 15px;
+  line-height: 17px;
+  font-weight: 500;
+}
